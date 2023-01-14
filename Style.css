@@ -1,0 +1,22 @@
+
+.btn:hover {
+  transform: scale(1.2);
+  background-color: #f9004d;
+}
+
+#navbarSupportedContent {
+  font-weight: 500;
+  margin-right: 30px;
+
+}
+
+.test {
+  transition: .4s;
+}
+
+.test:hover {
+  transition: .4s;
+  background-color: white;
+  color: #f9004d;
+
+}
