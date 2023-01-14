@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rishi Nigam</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">
+ 
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary-subtle ">
+    <div class="container-fluid  fw-normal">
+      <a class="navbar-brand" href="#"><img src="1.png" width="100" alt="img"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active test rounded navv" aria-current="page" href="index.html" style="padding-left: 25px;
+                padding-right: 25px; font-size:115%;">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link test rounded navv" href="#offcanvasWithBothOptions" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" target="_blank" style="padding-left: 25px;
+                padding-right: 25px; font-size:115%;">About Me</a>
+
+          </li>
+          <li class="nav-item test rounded">
+            <a class="nav-link navv" href="#" style="padding-left: 25px;
+                padding-right: 25px; font-size:115%;">My Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navv" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style=" font-size:115%;padding-left: 25px;
+                padding-right: 25px;">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Devlopment</a></li>
+              <li><a class="dropdown-item" href="#">App Devlopment</a></li>
+
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link test rounded navv" href="#contact" style="padding-left: 25px;
+                padding-right: 25px; font-size:115%;">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search ">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- slider -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="GettyImages-943067460-28883b8136b24330932cd4e2855c2508.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="download (1).jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="download.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Off canvas    -->
+
+
+  <div class="offcanvas offcanvas-start bg-primary-subtle " data-bs-scroll="true" tabindex="-1"
+    id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header text-center">
+      <h5 class="offcanvas-title text-center text-decoration-underline  border" id="offcanvasWithBothOptionsLabel"
+        style="margin-left: 31%; padding: 1%; ; color: #f9004d;">About Me</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <img src="1.jpg" alt="" width="85%" class="img-fluid text-center" style="padding-left: 10%;">
+      <h4 class=" pt-1 pb-2 text-decoration-underline" style="padding-left: 29%;">Rishi Nigam</h4>
+      <p style=" padding-left: 10%; padding-right: 10%;">I am a Software Devloper and Currently <br> I am Pursuing My
+        Btech In Medi-caps University Indore.
+        <br><br>
+      <h5 style="text-align: center;"><i class="bi bi-file-code-fill text-danger"></i>&nbsp &nbsp Thanks For Visiting
+        &nbsp&nbsp<i class="bi bi-file-code-fill text-danger"></i></h5>
+      </p>
+      <br>
+      <a target="_self" href="#contact" rel="noopener noreferrer" class="btn btn-light "
+        style="margin-left: 29%;">Contact Me</a>
+      <br><br>
+      <span>
+        <h4 style="margin-left: 31%; ">
+          <a target="_blank" href="https://www.linkedin.com/in/rishi-nigam-77b1681bb/"><i
+              class="bi bi-linkedin text-primary icons"></i></a>
+          <a target="_blank" href="https://www.instagram.com/rishi__nigam_/"><i
+              class="bi bi-instagram text-danger icons"></i></a>
+          <a target="_blank" href="https://www.facebook.com/rishi.nigam.1257"><i
+              class="bi bi-facebook text-primary icons"></i></a>
+        </h4>
+      </span>
+    </div>
+  </div>
+
+  <!-- Some Of Our Services -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        
+        <h1 class="display-6 text-center  mt-2 mb-1 pt-1 pb-1 border boder-dark border-2 bg-primary-subtle text-secondary" style="margin-left: 10%; margin-right: 10%;"> Some Of Our Services</h1>
+      </div>
+    </div>
+    <div class="row justify-content-evenly mt-2">
+      <div class="col-md-5 text-center border border-4 border-primary-subtle">
+        <br>
+        <h1> <i class="bi bi-code text-primary"></i></h1>
+        <h5> Frontend Development </h5>
+        <p>We can provide clean code and pixel perfect design. We also make website
+          more and more interactive with web animations.. A responsive design makes your
+          website accessible to all users, regardless of their device.</p>
+      </div>
+      <div class="col-md-5 text-center border border-4 border-primary-subtle">
+        <br>
+        <h1><i class="bi bi-easel-fill text-success"></i></h1>
+        <h5>Mobile Development</h5>
+        <p>As is probably obvious from the name, a mobile developer we builds applications that run natively on mobile
+          devices, including smartphones, tablets, and some types of smartwatches. Our application work with the two
+          operating systems either iOS or Android</p>
+      </div>
+      <!-- <div class="col-md-3 text-center">
+          <h1><i class="bi bi-calendar-range-fill danger"></i></h1>
+          <h5>Built For Devlopers</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione doloribus totam vitae perferendis</p>
+        </div> -->
+    </div>
+    <hr>
+
+    <div class="row justify-content-evenly mt-3 mb-3">
+      <div class="col-md-5 pt-3 ">
+        <img src="download.jpg" class="img-fluid" alt="" width="100%">
+      </div>
+      <div class="col-md-5 pt-2 border border-4">
+        <h2 class="text-center text-decoration-underline">Our Progress</h2>
+        <h5>Website Devlopment</h5>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-success pt-3" style="width: 80%"></div>
+        </div>
+        <h5>App Devlopment</h5>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-info pt-3" style="width: 50%"></div>
+        </div>
+        <h5>Software Devlopment</h5>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-warning pt-3" style="width: 75%"></div>
+        </div>
+        <!-- <h5>SEO</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger pt-3" style="width: 100%"></div>
+          </div> -->
+        <h5>Marketing</h5>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-success pt-3" style="width: 49%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+        contact and Locaton -->
+    <div class="row justify-content-evenly pt-3 pb-5 border border-4 rounded" style="background-color: #f1f1f1" id="contact">
+      <div class="col-md-4 border border-3 rounded border-dark">
+        <form >
+          <h3 class="mt-3 text-center">Contact Form</h3>
+          <div class="mb-3 mt-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name">
+
+          </div>
+          <div class="mb-3 mt-3 ">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Submit</button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Data Submited Succesfully</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Thanks For Your Support We Will Reach You Soon <br>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-4 mt-1 border border-3 rounded border-dark">
+        <h3 class="mt-1 text-center">Address</h3>
+        <p class="text-left">3215-E,Sudama Nagar , <br>
+          Indore,Madhya Pradesh <br>
+          India,<br>
+          <i class="bi bi-telephone-forward "></i>
+          :9644910194
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.159972665904!2d75.82511231541802!3d22.68508798512501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fc382d45116d%3A0x49c43c2cffdd747a!2s3215%2C%20E%20Sector%2C%20Sector%20E%2C%20Sudama%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452009!5e0!3m2!1sen!2sin!4v1673611883415!5m2!1sen!2sin"
+          style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="row justify-content-evenly">
+      <div class="col-md-10 mb-5">
+        <h3 class=" text-center mt-4 pb-2" style="font-weight: 200 ;">FAQ</h1>
+          <div class="accordion accordion-flush border" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What Type Of Project We Make?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  We make Two Types Of Project <br>
+                  1.&nbsp;Frontend Website <br>
+                  2.&nbsp;Mobile Devlopment
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  How To Contact Us
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">You can contact us by filling form given above or Visit at Adress given
+                  below
+                </div>
+              </div>
+              <!-- <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div> -->
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Now Footer -->
+    <div class="row justify-content-evenly bg-dark text-white pb-2 pb-4">
+      <div class="col-md-3 pt-4">
+        <h5 class="pb-2">Rishi Nigam</h5>
+        <p>I am a Software Devloper as well as front end web Devloper.I can provide clean code and pixel perfect design.
+          I also make website
+          more and more interactive with web animations.</p>
+      </div>
+      <div class="col-md-3 col-6 pt-4 ps-4">
+        <h5 class="pb-2">Importent Links</h5>
+        <span>
+          <h5 >
+            <a class="text-decoration-none text-light" target="_blank"
+              href="https://www.linkedin.com/in/rishi-nigam-77b1681bb/"><i
+                class="bi bi-linkedin text-primary icons"></i> &nbsp;Linkedin</a>
+          </h5>
+          <h5><a class="text-decoration-none text-light" target="_blank"
+              href="https://www.instagram.com/rishi__nigam_/"><i
+                class="bi bi-instagram text-danger icons"></i>&nbsp;Instagram</a></h5>
+          <h5><a class="text-decoration-none text-light" target="_blank"
+              href="https://www.facebook.com/rishi.nigam.1257"><i
+                class="bi bi-facebook text-primary icons"></i>&nbsp;Facebook</a></h5>
+        </span>
+      </div>
+      <div class="col-md-3 col-6 pt-4 ps-4">
+        <h5 class="pb-2">Contact Us</h5>
+        <p class="text-left">3215-E,Sudama Nagar  <br>
+          Indore,Madhya Pradesh <br>
+          India,<br>
+          <i class="bi bi-telephone-forward "></i>
+          :9644910194
+        </p>
+
+      </div>
+    </div>
+
+    <!-- Last COpyright -->
+    <div class="row ">
+      <div class="col-12 bg-secondary text-center text-white">
+        <p>Made With <i class="bi bi-heart-fill" style="color: red;"></i> By Rishi Nigam January 2023</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
